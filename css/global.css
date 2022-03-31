@@ -1,0 +1,32 @@
+.header-mobile{
+    display: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, Arial;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body, html{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: #141414;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+/* FONTS */
+
+@font-face {
+    font-family: Netflix;
+    src: url("../assets/fonts/Bebas-Regular.ttf");
+}

@@ -1,0 +1,26 @@
+.header-desktop .navbar{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, transparent 100%);  
+}
+
+
+.header-desktop .navbar-list-left{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.header-desktop .navbar-list-left > * {
+    cursor: pointer;
+}
+
+.header-desktop .navbar-list-left img{
+    width: 120px;
+}

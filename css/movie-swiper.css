@@ -1,0 +1,50 @@
+.movie-swiper{
+    position: relative;
+}
+
+.movie-swiper h2{
+    color: white;
+    padding-left: 100px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.movie-swiper img{
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cotain;
+    max-width: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.movie-swiper img:hover{
+    transform: scale(1.07);
+}
+
+.movie-swiper .swiper-slide:hover{
+    z-index: 999;
+}
+
+.swiper-button-prevv{
+    -webkit-mask: url("../assets/imgs/angle-left-solid.svg") no-repeat center;
+  mask: url("../assets/imgs/angle-left-solid.svg") no-repeat center;
+}
+
+.swiper-button-nextt{
+    right: 1%;
+    -webkit-mask: url("../assets/imgs/angle-right-solid.svg") no-repeat center;
+    mask: url("../assets/imgs/angle-right-solid.svg") no-repeat center;
+}
+
+.swiper-button-nextt, .swiper-button-prevv {
+    background-color: black;
+    position: absolute;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    bottom: 50%;
+    transform: translateY(50%);
+    cursor: pointer;
+}

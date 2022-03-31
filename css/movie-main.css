@@ -1,0 +1,46 @@
+.movie-main{
+    position: relative;
+    height: 700px;
+    width: 100%;
+}
+
+.movie-main .bg{
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.movie-main-content{
+    display: flex;
+    position: relative;
+    padding-top: 200px;
+    padding-left: 100px;
+    flex-direction: column;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    width: 500px;
+    text-align: start;
+}
+
+.movie-main-content h2{
+    margin: 0;
+    padding: 0;
+}
+
+.movie-main-content-filme{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    color: grey;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+.movie-main-content img{
+    width: 30px;
+    height: 40px;
+}
